@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.dark .item {
+    border: solid;
+    border-color: black;
+    box-shadow: 5px 10px 20px black;
+    background-color: rgba(255, 255, 255, 0.671);
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+    height: 25px;
+}
+
+.container {
+    display: inline;
+    max-width: 15%;
+}
+
+.item {
+    margin-top: -6px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.548);
+    min-width: 50px;
+    border-radius: 25px 50px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.item-job {
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 12px;
+    min-width: 80px;
+    float: left;
+}
+
+.item-ammo {
+    bottom: 10px;
+    position: fixed;
+    right: 90px;
+    min-width: 40px;
+    float: right;
+}
+
+.job-text {
+    margin-top: 0px;
+    font-size: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+    letter-spacing: 2px;
+    display: inline;
+}
+
+.ammo-text {
+    margin-top: 10px;
+    display: inline;
+}
+
+.text-right {
+    font-size: 10px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    display: inline;
+}
+
+.dark .text .text-right {
+    color: rgb(255, 255, 255);
+}
+
+#main img {
+    width: 18px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: rgb(230, 230, 230);
+}
+
+#logo {
+    width: 18px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cont {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+    float: right;
+    border-radius: 10px;
+    opacity: 50%;
+}
+.contt {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    top: 95%;
+    left: 97.5%;
+    border-radius: 15px;
+    opacity: 50%;
+}
+
+#cinema1{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#cinema2{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    position: absolute;  
+}
+
+#cinema{
+    display: none;
+}
+
+#phonenotif{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    width: 320px;
+    max-width: 500px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 250px;
+}
+
+.tweet {
+    font-family: 'Poppins';
+    margin: 10px;
+    right: 10px;
+    display: none;
+    width: 300px;
+    height: 130px;
+    max-width: 400px;
+    max-height: 130px;
+    overflow: hidden;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgba(8, 160, 233);
+    color: #ffffff;
+}
+
+.oglas {
+    margin: 10px;
+    right: 10px;
+    display: none;
+    width: 300px;
+    height: 130px;
+    max-width: 400px;
+    max-height: 130px;
+    overflow: hidden;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 2);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+}
+
+#message img {
+    width: 120px;
+    height: 80px;
+    max-height: 120px;
+    max-width: 80px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    float: left;
+    border-radius: 20%;
+    opacity: 90%;
+}
+
+#message {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#tweetinfo {
+    margin: 0;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#tweetinfoOglas {
+    margin: 0;
+    border-bottom: 2px rgba(255, 255, 255, 0.7) solid;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#author {
+    float: left;
+}
+
+#vrijeme {
+    float: right;
+}
+
+#black_money{
+    color: rgb(255, 177, 177);
+}
